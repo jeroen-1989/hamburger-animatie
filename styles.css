@@ -9,7 +9,7 @@
     top: 20px;
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
-    transition: background-color 2s ease;
+    transition: background-color 1s ease;
 }
 
 #menu::before,
@@ -25,13 +25,17 @@
 #menu::before {
     left: 0;
     top: -20px;
-    transition: transform 2s ease, top 2s ease;
+    transition:
+            transform 1s ease,
+            top 1s ease;
 }
 
 #menu::after {
     left: 0;
     top: 20px;
-    transition: transform 2s ease, top 2s ease;
+    transition:
+            transform 1s ease,
+            top 1s ease;
 }
 
 #container {
